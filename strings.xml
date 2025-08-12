@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OneBus</string>
+    <string-array name="roles_array">
+        <item>cadastro</item>
+        <item>visualizacao</item>
+    </string-array>
+</resources>
