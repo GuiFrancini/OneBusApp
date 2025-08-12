@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Cadastro de Usuário -->
+        <TextView
+            android:text="Cadastrar Usuário"
+            android:textColor="#0090DB"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtNovoUsuario"
+            android:hint="Usuário"
+            android:backgroundTint="#0090DB"
+            android:textColorHint="#B693DB"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtSenhaUsuario"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:backgroundTint="#0090DB"
+            android:textColorHint="#B693DB"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtPapelUsuario"
+            android:hint="Papel (admin, gestor, funcionario)"
+            android:backgroundTint="#0090DB"
+            android:textColorHint="#B693DB"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnCadastrarUsuario"
+            android:text="Cadastrar Usuário"
+            android:textColor="#000000"
+            android:backgroundTint="#0090DB"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Cadastro de Linha -->
+        <TextView
+            android:text="Cadastrar Linha"
+            android:textColor="#0090DB"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtNumeroLinha"
+            android:hint="Número da Linha"
+            android:backgroundTint="#0090DB"
+            android:textColorHint="#B693DB"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtNomeLinha"
+            android:hint="Nome da Linha"
+            android:backgroundTint="#0090DB"
+            android:textColorHint="#B693DB"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnCadastrarLinha"
+            android:text="Cadastrar Linha"
+            android:textColor="#000000"
+            android:backgroundTint="#0090DB"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Cadastro de Ônibus -->
+        <TextView
+            android:text="Cadastrar Ônibus"
+            android:textColor="#0090DB"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtModeloOnibus"
+            android:hint="Modelo"
+            android:backgroundTint="#0090DB"
+            android:textColorHint="#B693DB"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtChassiOnibus"
+            android:hint="Chassi"
+            android:backgroundTint="#0090DB"
+            android:textColorHint="#B693DB"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtPrefixoOnibus"
+            android:hint="Prefixo"
+            android:backgroundTint="#0090DB"
+            android:textColorHint="#B693DB"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnCadastrarOnibus"
+            android:text="Cadastrar Ônibus"
+            android:textColor="#000000"
+            android:backgroundTint="#0090DB"
+            android:layout_marginBottom="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnVoltarLogin"
+            android:text="Voltar ao Login"
+            android:textColor="#000000"
+            android:backgroundTint="#B693DB"
+            android:layout_marginBottom="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</ScrollView>
